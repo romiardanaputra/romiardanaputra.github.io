@@ -1,0 +1,78 @@
+/*=============
+ header layout
+ ==============*/
+
+/* header wrapper */
+.header_container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 1200px;
+}
+/* left logo */
+.left_logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 1.25 rem;
+	white-space: nowrap;
+	padding: 0.3125rem 0 0.3125rem 0;
+}
+
+/* image the logo have on the left side */
+.left_logo-img {
+	width: 50px;
+	height: 50px;
+}
+/* left logo > p */
+.left_logo-text {
+	background-image: linear-gradient(90deg, red, blue);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 1.125rem;
+	text-align: center;
+	margin: 0;
+	font-weight: 800;
+	padding: 0 0 0 7px;
+}
+
+/* ul inside the navigation */
+.nav-ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+/* navigation list */
+.nav-li {
+	list-style: none;
+	padding: 0.5rem 1rem;
+}
+.nav-a::after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: var(--color-1);
+	display: inline-block;
+	position: absolute;
+	top: 22px;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.3s ease-in-out;
+}
+.nav-a:hover::after {
+	transform-origin: left;
+	transform: scaleX(1);
+}
+/* navigation a */
+.nav-a {
+	text-decoration: none;
+	color: var(--color-1);
+	font-weight: 700;
+	font-family: 'Fira Sans', sans-serif;
+	position: relative;
+}
+.active-link{
+	background-color: black;
+}

@@ -1,0 +1,28 @@
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.sitemap-list {
+	letter-spacing: 1px;
+	padding: 4rem;
+	font: 18px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin-top: 54px;
+}
+.sitemap-list h1 {
+  text-align: center;
+  padding: 1rem 0;
+}
+.courses-detail-item,
+.courses-shcedule-item {
+	margin-left: 20px;
+}
+.sitemap-list a {
+	line-height: 20px;
+	word-spacing: 2px;
+}
+.sitemap-list li {
+	padding: 0.5rem 0;
+}

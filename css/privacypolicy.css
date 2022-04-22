@@ -1,0 +1,39 @@
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/* ==========
+main section (privacy Policy)
+============*/
+
+.wrapper-main {
+  padding: 4rem;
+}
+.privacy-policy-content {
+  padding: 3rem;
+  border: 1px solid var(--color-1);
+  border-radius: 8px;
+}
+
+.privacy-policy-content h1,
+.privacy-policy-content h2,
+.privacy-policy-content p,
+.privacy-policy-content li {
+	color: #666;
+	padding: 0.5rem 0;
+	letter-spacing: 0.5px;
+}
+.privacy-policy-content h1,
+.privacy-policy-content h2 {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 32px;
+}
+.privacy-policy-content p,
+.privacy-policy-content li {
+	font-size: 14px;
+	line-height: 18px;
+}
+.privacy-policy-content li {
+	margin-left: 20px;
+}

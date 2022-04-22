@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'Lemon Milk Regular';
+	src: url('font/lemon-milk.otf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-4 {
+	flex: 0 0 auto;
+	width: 33.33333333%;
+}
+
+.col-6 {
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.col-12 {
+	flex: 0 0 auto;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	padding: 0.5rem 0;
+	font-family: 'Lemon Milk Regular', serif;
+	margin-bottom: 25px;
+}
+h2 {
+	padding: 0.6rem 0;
+	font-size: 18px;
+	font-family: 'Lemon Milk Regular', serif;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 0 2px 10px #0a062e;
+}
+body {
+	background-color: #7363ff;
+}
+.wrapper {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: hsla(0, 0%, 97%, 0.25);
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	padding: 3rem;
+	border-radius: 8px;
+}
+
+p {
+	font-size: 13px;
+	margin-top: 8px;
+}
+label {
+	padding: 1rem 0;
+}
+/* form style */
+input[type='text'],
+input[type='password'],
+input[type='tel'],
+input[type='email'],
+textarea {
+	padding: 0.5rem;
+	width: 95%;
+	font-size: 14px;
+	outline-color: #1304a1;
+}
+
+input[type='email'],
+input[type='password'] {
+	width: 99%;
+}
+select[name='gender'],
+select[name='course'] {
+	padding: 0.5rem;
+	width: 97%;
+	font-size: 14px;
+	outline-color: #1304a1;
+}
+.col-12 {
+	padding: 0.5rem 0;
+}
+button {
+	border: 2px solid #7363ff;
+	padding: 0.7rem 1.8rem;
+	margin-top: 5px;
+	background-color: #1304a1;
+	color: #fff;
+	border-radius: 5px;
+	width: 50%;
+}
+.row:nth-child(2) {
+	margin-top: 15px;
+}

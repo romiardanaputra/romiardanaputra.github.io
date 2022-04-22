@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+h1 {
+	text-align: center;
+    padding: 2rem 0;
+    color: #7363ff;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+tr,
+td {
+	border: 1px solid #ddd;
+	padding: 15px 30px;
+    width: 100%;
+}
+
+th {
+    background-color:#7363ff ;
+    color: #fff;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+.btnEdit, .btnDel {
+    padding: .5rem 1.5rem;
+    background-color: #7363ff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}

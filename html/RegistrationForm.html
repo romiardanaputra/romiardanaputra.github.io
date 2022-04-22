@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Registration Form</title>
+		<meta name="keywords" content="Registration, Form, Course" />
+		<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="../css/RegistrationForm.css" type="text/css" />
+		<script src="../js/RegistrationForm.js"></script>
+	</head>
+
+	<!-- Name, email, contact, course insterested, comments/ questions -->
+	<body onload="document.registration.firstName.focus();">
+		<h1>Registration Form</h1>
+
+		<div class="wrapper">
+			<form name="registration" onSubmit="return formValidation(); " action="thankyou.html" method="post">
+				<h2>Student Name</h2>
+				<div class="row">
+					<div class="col-4">
+						<div class="form-item">
+							<input type="text" name="firstName" id="firstName" size="50" placeholder="Enter User Name here" required />
+							<label for="firstName"><p>First Name</p></label>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="form-item">
+							<input type="text" name="middleName" id="middleName" required placeholder="Enter Your Middle Name " />
+							<label for="middleName"><p>Middle Name</p></label>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="form-item">
+							<input type="text" name="lastName" id="lastName" required placeholder="Enter Your Last Name " />
+							<label for="middleName"><p>Last Name</p></label>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="form-item">
+							<h2>Gender</h2>
+							<select name="gender" id="gender">
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="form-item">
+							<h2>Course Avaible</h2>
+							<select name="course" id="course">
+								<option value="htmlCourse">HTML Course</option>
+								<option value="cssCourse">CSS Course</option>
+								<option value="javascriptCourse">JavaScript Course</option>
+								<option value="jqueryCourse">jQuery Course</option>
+								<option value="javaCourse">Java Course</option>
+								<option value="phpCourse">PHP Course</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="form-item">
+							<label for="email"><h2>Email</h2></label>
+							<input type="email" name="email" id="email" size="50" placeholder="Enter your email here" required />
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="form-itam">
+							<label for="pwd"><h2>Password</h2></label>
+							<input type="password" name="pwd" id="pwd" size="12" placeholder="Enter your password here" required />
+						</div>
+					</div>
+					<div class="col-4">
+					<button type="submit" id="submit" name="submit"><a>Register</a></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

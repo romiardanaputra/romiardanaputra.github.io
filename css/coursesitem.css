@@ -1,0 +1,99 @@
+/* jquery css */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header_container {
+	position: fixed;
+	background-color: #fff;
+	z-index: 10000;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.123);
+  width: 100%;
+}
+
+.ui-tabs-vertical {
+	width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.363);
+}
+.ui-tabs-vertical .ui-tabs-nav {
+	padding: 0.2em 0.1em 0.2em 0.2em;
+	float: left;
+	width: 12em;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	border-bottom-width: 1px !important;
+	border-right-width: 0 !important;
+	margin: 0 -1px 0.2em 0;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+	display: block;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: 0.1em;
+	border-right-width: 1px;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+	padding: 1em;
+	float: right;
+	width: 50em;
+}
+.ui-widget.ui-widget-content {
+	border: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	background-color: var(--color-1);
+}
+.ui-widget-header {
+	background-color: #fff;
+	border: none;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+	margin: 5px 0;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: 5px;
+}
+
+/* my css */
+.wrapper1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12rem 0 5rem 0;
+}
+.content-course-text {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.course-text-description p {
+	line-height: 25px;
+}
+.course-text-description h2 {
+	padding: 1rem 0;
+}
+.overflowscrollY {
+	height: calc(var(--window-height) / 1.5);
+  overflow-y: scroll;
+}
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 80%;
+	background-color: rgba(51, 51, 51, 0);
+}
+span {
+	color: red;
+	background-color: rgba(128, 128, 128, 0.336);
+}
+.course-text-description li {
+	padding: .5rem 0;
+	line-height: 25px;
+}

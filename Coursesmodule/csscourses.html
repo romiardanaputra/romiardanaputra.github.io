@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Course Module | CSS Course</title>
+		<!-- link -->
+		<link rel="stylesheet" href="../css/jquery-ui.css" />
+		<link rel="stylesheet" href="../css/commonly_used/header.css" />
+		<link rel="stylesheet" href="../css/commonly_used/footer.css" />
+		<link rel="stylesheet" href="../css/coursesitem.css" />
+		<link rel="stylesheet" href="../css/commonly_used/page-control.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<div class="header_container">
+				<div class="left_logo">
+					<img class="left_logo-img" src="../asset/logo.svg" alt="Logo ABC learnign center" />
+					<p class="left_logo-text">Learning Center</p>
+				</div>
+				<div class="header_menu-bar">
+					<nav>
+						<ul class="nav-ul">
+							<li class="nav-li"><a class="nav-a" href="../html/index.html">Homepage</a></li>
+							<li class="nav-li"><a class="nav-a" href="../html/aboutus.html">About Us</a></li>
+							<li class="nav-li"><a class="nav-a" href="../html/coursedetail.html">Course Detail</a></li>
+							<li class="nav-li"><a class="nav-a" href="../html/courseschedule.html">Course Schedule</a></li>
+							<li class="nav-li"><a class="nav-a" href="../html/contactus.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- main -->
+		<main>
+			<div class="wrapper wrapper1">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1"> CSS Introduction</a></li>
+						<li><a href="#tabs-2"> CSS basic</a></li>
+						<li><a href="#tabs-3"> CSS syntax</a></li>
+					</ul>
+					<div id="tabs-1">
+						<div class="overflowscrollY">
+							<div class="course-text-description">
+								<h2>what is CSS ?</h2>
+								<hr />
+								<p>
+									Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML
+									that makes up each web page. CSS is easy to learn and understand, but it provides powerful control over the presentation of an HTML document.
+								</p>
+							</div>
+							<div class="course-text-description">
+								<h2>why CSS ?</h2>
+								<hr />
+								<p>
+									<li>CSS saves time: You can write CSS once and reuse the same sheet in multiple HTML pages.</li>
+									<li>Easy Maintenance: To make a global change simply change the style, and all elements in all the webpages will be updated automatically.</li>
+									<li>Search Engines: CSS is considered a clean coding technique, which means search engines won't have to struggle to “read” its content.</li>
+									<li>Superior styles to HTML: CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.</li>
+									<li>Offline Browsing: CSS can store web applications locally with the help of an offline cache. Using this we can view offline websites.</li>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div id="tabs-2">
+						<div class="overflowscrollY">
+							<div class="course-text-description">
+								<h2>CSS Selector Example</h2>
+								<hr />
+								<p>
+									In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the markup itself. <br /><br />
+									Selectors may apply to the following:
+								</p>
+								<li>all elements of a specific type, e.g. the second-level headers h2</li>
+								<li>id: an identifier unique within the document, identified with a hash prefix e.g. #id</li>
+								<li>class: an identifier that can annotate multiple elements in a document, identified with a period prefix e.g. .classname</li>
+								<li>elements depending on how they are placed relative to others in the document tree.</li>
+								<br />
+								<br />
+								<p>
+									Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens, and underscores. A class may apply to any number of instances of any elements. An ID may only be applied to a single element. Pseudo-classes are used in CSS
+									selectors to permit formatting based on information that is not contained in the document tree. One example of a widely used pseudo-class is :hover, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor
+									over it. It is appended to a selector as in a:hover or #elementid:hover. A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist of partial elements, such as ::first-line or
+									::first-letter.[6] Selectors may be combined in many ways to achieve great specificity and flexibility.[7] Multiple selectors may be joined in a spaced list to specify elements by location, element type, id, class, or any combination thereof. The order of the
+									selectors is important. For example, div .myClass {color: red;} applies to all elements of class myClass that are inside div elements, whereas .myClass div {color: red;} applies to all div elements that are inside elements of class myClass. This is not to be
+									confused with concatenated identifiers such as div.myClass {color: red;} which applies to div elements of class myClass. The following table provides a summary of selector syntax indicating usage and the version of CSS that introduced it
+								</p>
+							</div>
+						</div>
+					</div>
+					<div id="tabs-3">
+						<div class="overflowscrollY">
+							<div class="course-text-description">
+								<h2>CSS Syntax</h2>
+								<hr />
+								<p>A CSS comprises style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule set consists of a selector and declaration block.</p>
+								<li>The selector points to the HTML element you want to style.</li>
+								<li>The declaration block contains one or more declarations separated by semicolons.</li>
+								<li>Each declaration includes a CSS property name and a value, separated by a colon. For Example: -; color is property and blue is value. -; font-size is property and 12px is value.</li>
+								<li>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- footer -->
+		<footer>
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-3">
+						<ul>
+							<h3>Data Privacy And Others</h3>
+							<li><a href="../html/privacypolicy.html">privacy policy</a></li>
+							<li><a href="../html/sitemap.html">site map</a></li>
+							<li><a href="#gotop">ABC Learning Center @copyright</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<ul>
+							<h3>Find Us Here</h3>
+							<li><a href="../html/aboutus.html">About Our Company</a></li>
+							<li><a href="../html/contactus.html">Find Us Here</a></li>
+							<li><a href="../html/contactus.html">Find Our Location Here</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<ul>
+							<h3>FrontEnd Courses</h3>
+							<li><a href="../Coursesmodule/htmlcourses.html">HTML Course</a></li>
+							<li><a href="../Coursesmodule/csscourses.html">CSS Course</a></li>
+							<li><a href="../Coursesmodule/javascriptcourses.html">JavaScript Course</a></li>
+						</ul>
+					</div>
+					<div class="col-3">
+						<ul>
+							<h3>BackEnd Courses</h3>
+							<li><a href="../Coursesmodule/javacourses.html">Java Course</a></li>
+							<li><a href="../Coursesmodule/phpcourses.html">Php Course</a></li>
+							<li><a href="../Coursesmodule/jquerycourses.html">jQuery Course</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="../jquery/jquery-compresed-version.js"></script>
+	<script src="../jquery/jquery-ui.js"></script>
+	<script src="../js/coursemodule.js"></script>
+</html>

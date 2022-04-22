@@ -1,0 +1,29 @@
+/* change jquery css through my css */
+
+
+
+.course-schedule-heading h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 5rem 0 3rem 0;
+}
+#accordion h2 {
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+/* style for table schedule */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

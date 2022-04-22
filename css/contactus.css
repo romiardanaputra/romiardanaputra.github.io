@@ -1,0 +1,67 @@
+/* Section1 */
+* {
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+}
+main .row {
+  margin-top: 45px;
+}
+main .col-6 {
+	padding: 2rem;
+}
+.col-6 h1 {
+  color: var(--color-2);
+  text-align: center;
+}
+
+.box-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+}
+.icon {
+	padding: 2rem;
+	border-radius: 50%;
+	border: 1px solid #7363FF;
+}
+.icon img {
+	width: 30px;
+	height: 30px;
+}
+.icon-text {
+	margin-left: 32px;
+}
+.icon-text h3 {
+  color: #7363FF;
+}
+
+/* ==============
+form section
+==================*/
+form {
+	display: flex;
+	flex-direction: column;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  outline-color: #7363FF;
+}
+button[type='submit'] {
+	background-color: #7363FF;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

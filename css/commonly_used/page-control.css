@@ -1,0 +1,128 @@
+/* ===========
+Css Flexbox For Griding
+=============*/
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-1 {
+	flex: 0 0 auto;
+	width: 8.33333333%;
+}
+.col-2 {
+	flex: 0 0 auto;
+	width: 16.66666667%;
+}
+.col-3 {
+	flex: 0 0 auto;
+	width: 25%;
+}
+.col-4 {
+	flex: 0 0 auto;
+	width: 33.33333333%;
+}
+.col-5 {
+	flex: 0 0 auto;
+	width: 41.66666667%;
+}
+.col-6 {
+	flex: 0 0 auto;
+	width: 50%;
+}
+.col-7 {
+	flex: 0 0 auto;
+	width: 58.33333333%;
+}
+.col-8 {
+	flex: 0 0 auto;
+	width: 66.66666667%;
+}
+.col-9 {
+	flex: 0 0 auto;
+	width: 75%;
+}
+.col-10 {
+	flex: 0 0 auto;
+	width: 83.33333333%;
+}
+.col-11 {
+	flex: 0 0 auto;
+	width: 91.66666667%;
+}
+.col-12 {
+	flex: 0 0 auto;
+	width: 100%;
+}
+
+
+/* ======================
+=	Font
+========================= */
+@font-face {
+	font-family: 'Fira Sans', sans-serif;
+	src: url(../../font/FiraSans-Regular.otf);
+}
+@font-face {
+	font-family: 'Playfair Display', serif;
+	src: url(../../font/PlayfairDisplay-Regular.otf);
+}
+/* ==================
+		Margin Padding
+===================== */
+/* _______
+		root Css
+________*/
+/* mycss */
+:root {
+	--font-h1: 2rem; /* equal to 32px*/
+	--font-p: 1rem; /* equal to 16px*/
+	--paddingX-content: 0.5rem; /* equal to 8px*/
+	--paddingY-content: 0.5rem; /* equal to 8px*/
+	--border-radius: 0.5rem; /* equal to 8px*/
+	--window-height: 768px;
+	--window-width: 1366px;
+}
+:root{
+	--color-1: #7363FF;
+	--color-2: #2F2E41;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+/* class for JS */
+.fade-from-bottom {
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0, 100px);
+}
+.fade-from-top {
+	opacity: 0;
+	transition: 1s;
+	transform: translate(0,-100px);
+}
+.fade-from-left {
+	opacity: 0;
+	transition: 1s;
+	transform: translate(-100px, 0);
+}
+.fade-from-right {
+	opacity: 0;
+	transition: 1s;
+	transform: translate(100px, 0);
+}
+.animate-showup {
+	opacity: 1;
+	transform: translate(0,0);
+}
+.animate-onHover {
+	transform: scale(1.025);
+	transform: translate(0,-5px);
+	box-shadow: 1px 10px 10px rgb(0, 0, 0, 0.6);
+	transition: .1s;
+}
